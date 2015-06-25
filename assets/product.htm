@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>果肉网</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link href="images/css.css" rel="stylesheet" type="text/css">
+<link href="images/banner.css" rel="stylesheet" type="text/css">
+<meta name="keywords" content="果肉网">
+<meta name="description" content="果肉网">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="layout" content="main">
+<script type="text/javascript" src="images/jquery-1.8.3.min.js"></script>
+
+<script type="text/javascript">
+$(function () {
+	display = 'list';
+	
+	$("#list1").click(function(){
+		$("#list1").hide();
+		$("#list2").show();
+		$("#listone").addClass('style1');
+		$("#listone ul .li2").hide();
+		display = 'gallery';
+	});
+	$("#list2").click(function(){
+		$("#list2").hide();
+		$("#list1").show();
+		$("#listone").removeClass('style1');
+		$("#listone ul .li2").show();
+		display = 'list';
+	});
+});
+$(function() {
+	if ($('img.lazy').length > 0) {
+		$('img.lazy').lazyload({
+			placeholder : "/img/produkt_slid_default.png",
+			effect : "fadeIn"
+		});
+	}
+});
+</script>
+</head>
+<body class="hPC">
+<div class=" mb_frame">
+<div class="top-dload pr" style="margin-top:10px; border:4px solid #eee"> <a name="index_none_dtgg_qx" href="javascript:void(0);" class="clo-se" onclick="this.parentNode.style.display = &#39;none&#39;"></a> <a href="javascript:void(0);" class="click" onclick="downloadApp();"> <img src="images/142795562403418128.jpg" width="100%"> </a> </div>
+<div class="searchs">
+        	
+            <h3>
+                <span id="s1" onclick="orderBy(this, &#39;onTime&#39;)" class="searchhover">价格<b>▼</b></span>
+                <span id="s2" onclick="orderBy(this, &#39;nowPrice&#39;)">销量<b>▲</b></span>
+                <span id="s3" onclick="orderBy(this, &#39;goodsBase&#39;)">热卖<b>▼</b></span>
+                <p id="list1" style="display: block;"><img src="images/list1.png" height="34"></p>
+                <p id="list2" style="display: none;"><img src="images/list2.png" height="34"></p>
+            </h3>
+            
+            <div style="clear: both;"></div>
+            <div id="listone" class="style">
+			
+            <ul>
+            	
+                <a href="product_1.htm"><img class="lazy" alt="墨西哥牛油果 6个装" src="images/20150401144939.jpg" style="display: block;">
+                <li class="li1"><b>墨西哥牛油果 6个装</b></li></a>
+                
+                <li class="li2" style="">0.5kg</li>
+                <li class="li3"><span>￥<b>44.00</b>&nbsp;&nbsp;<s>￥58.00</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 372, &#39;1&#39;)"></li>
+            </ul>
+			
+            <ul>
+                <a href="product_1.htm"><img class="lazy" alt="美国黑布林5斤装" src="images/20150401135009.jpg" style="display: block;">
+                <li class="li1"><b>美国黑布林5斤装</b></li></a>
+                
+                <li class="li2" style="">2.5kg</li>
+                <li class="li3"><span>￥<b>40.00</b>&nbsp;&nbsp;<s>￥80.00</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 598, &#39;1&#39;)"></li>
+            </ul>
+			
+            <ul>
+            	
+                <a href="product_1.htm"><img class="lazy" alt="菲律宾凤梨1个装" src="images/20150416095554.jpg" style="display: block;">
+                <li class="li1"><b>菲律宾凤梨1个装</b></li></a>
+                
+                <li class="li2" style="">1.5kg</li>
+                <li class="li3"><span>￥<b>34.00</b>&nbsp;&nbsp;<s>￥42.00</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 43, &#39;1&#39;)"></li>
+            </ul>
+			
+            <ul>
+            	
+                <a href="product_1.htm"><img class="lazy" alt="台湾水仙芒 2个装  " src="images/20150401172924.jpg" style="display: block;">
+                <li class="li1"><b>台湾水仙芒 2个装  </b></li></a>
+                
+                <li class="li2" style="">0.8kg</li>
+                <li class="li3"><span>￥<b>30.00</b>&nbsp;&nbsp;<s>￥39.00</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 628, &#39;1&#39;)"></li>
+            </ul>
+			
+            <ul>
+            	
+                <a href="product_1.htm"><img class="lazy" alt="台湾水仙芒  8个装" src="images/20150401172828.jpg" style="display: block;">
+                <li class="li1"><b>台湾水仙芒  8个装</b></li></a>
+                
+                <li class="li2" style="">3kg</li>
+                <li class="li3"><span>￥<b>96.00</b>&nbsp;&nbsp;<s>￥124.80</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 629, &#39;1&#39;)"></li>
+            </ul>
+			
+            <ul>
+            	
+                <a href="product_1.htm"><img class="lazy" alt="海南青皮芒" src="images/20150408104305.jpg" style="display: block;">
+                <li class="li1"><b>海南青皮芒</b></li></a>
+                
+                <li class="li2" style="">1.1kg</li>
+                <li class="li3"><span>￥<b>23.00</b>&nbsp;&nbsp;<s>￥28.00</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 648, &#39;1&#39;)"></li>
+            </ul>
+			
+            <ul>
+            	
+                <a href="product_1.htm"><img class="lazy" alt="台湾金钻凤梨1个装" src="images/20150401170649.jpg" style="display: block;">
+                <li class="li1"><b>台湾金钻凤梨1个装</b></li></a>
+                
+                <li class="li2" style="">1.1kg</li>
+                <li class="li3"><span>￥<b>17.00</b>&nbsp;&nbsp;<s>￥22.00</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 399, &#39;1&#39;)"></li>
+            </ul>
+			
+            <ul>
+            	
+                <a href="product_1.htm"><img class="lazy" alt="越南红心火龙果 2个装（包邮）" src="images/20150401152633.jpg" style="display: block;">
+                <li class="li1"><b>越南红心火龙果 2个装（包邮）</b></li></a>
+                
+                <li class="li2" style="">1.5kg</li>
+                <li class="li3"><span>￥<b>40.00</b>&nbsp;&nbsp;<s>￥58.00</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 40, &#39;1&#39;)"></li>
+            </ul>
+			
+            <ul>
+            	
+                <a href="product_1.htm"><img class="lazy" alt="美国红玫瑰苹果 4个装" src="images/20150401140316.jpg" style="display: block;">
+                <li class="li1"><b>美国红玫瑰苹果 4个装</b></li></a>
+                
+                <li class="li2" style="">0.7kg</li>
+                <li class="li3"><span>￥<b>33.00</b>&nbsp;&nbsp;<s>￥41.00</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 214, &#39;1&#39;)"></li>
+            </ul>
+			
+            <ul>
+            	
+                <a href="product_1.htm"><img class="lazy" alt="美国红提 2斤装" src="images/20150401141516.jpg" style="display: block;">
+                <li class="li1"><b>美国红提 2斤装</b></li></a>
+                
+                <li class="li2" style="">1kg</li>
+                <li class="li3"><span>￥<b>34.00</b>&nbsp;&nbsp;<s>￥42.00</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 222, &#39;1&#39;)"></li>
+            </ul>
+			
+            <ul>
+            	
+                <a href="product_1.htm"><img class="lazy" alt="美国新奇士脐橙4个装" src="images/20150401165039.jpg" style="display: block;">
+                <li class="li1"><b>美国新奇士脐橙4个装</b></li></a>
+                
+                <li class="li2" style="">0.6kg</li>
+                <li class="li3"><span>￥<b>36.00</b>&nbsp;&nbsp;<s>￥45.00</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 373, &#39;1&#39;)"></li>
+            </ul>
+			
+            <ul>
+            	
+                <a href="product_1.htm"><img class="lazy" alt="新西兰佳沛绿奇异果 6个装" src="images/20150401150227.jpg" style="display: block;">
+                <li class="li1"><b>新西兰佳沛绿奇异果 6个装</b></li></a>
+                
+                <li class="li2" style="">0.55kg</li>
+                <li class="li3"><span>￥<b>27.80</b>&nbsp;&nbsp;<s>￥36.50</s></span><img src="images/cart.png" class="serchcart" onclick="addToCart(this, 223, &#39;1&#39;)"></li>
+            </ul>
+			
+			<div id="ppppp" style="clear:both;"></div>
+			
+			
+            <p class="p1" onclick="loadNextGoods()">加载更多</p>
+        	</div>
+        </div>
+</div>
+<footer class="width100 " style="margin-top:3px;">
+  <div class="plc_footer">
+    <div class="sec_phone" style="background-color:#fff;  color:#fff;"> <a href="tel:025-00000000"><span>客服热线：<i class="colorf60 fontarial f18">025-00000000</i></span></a> </div>
+  </div>
+  <div class="mbft_bom " style="background-color:#fff;">
+    <p>© 2015 果肉网</p>
+  </div>
+</footer>
+</body>
+</html>

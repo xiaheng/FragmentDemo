@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>果肉网</title>
+  <meta http-equiv="pragma" content="no-cache"> 
+     <meta http-equiv="cache-control" content="no-cache"> 
+     <meta http-equiv="expires" content="0">   
+
+<link href="images/css.css" rel="stylesheet" type="text/css">
+<link href="images/banner.css" rel="stylesheet" type="text/css">
+<meta name="keywords" content="果肉网">
+<meta name="description" content="果肉网">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="layout" content="main">
+<script src="images/idangerous.js" type="text/javascript"></script>
+<script src="images/idangerous.js" type="text/javascript"></script>
+<script src="images/jquery-1.10.1.min.js" type="text/javascript"></script>
+</head>
+<body class="hPC">
+<div class="login-form">
+        <form action="" method="">
+            <span>
+                <input type="text" placeholder="请输入手机号码" class="input-40" name="username" id="username">
+            </span>
+            <span>
+                <input type="password" placeholder="设置密码" class="input-40" name="pwd" id="userpwd">
+            </span>
+            <input type="hidden" name="client" value="wap">
+            <!-- <span class="clearfix auto-login">
+                <i class="s-chk1 fleft mr5"></i>
+                <span>7天内免登录</span>
+            </span> -->
+            <div class="error-tips mt10"></div>
+            <a href="wjmm.htm" class="l-btn-login_2 mt10">忘记密码？</a>
+            <a href="grzx.htm" class="l-btn-login mt10 fr" >登录</a>
+        </form>
+    </div>
+<div class="other-login">
+            <p><span>使用以下账号登录</span></p>
+            <div class="new-tbl-type">
+            <a class="new-tbl-cell" href="javascript:void(0);" onclick="toQzoneLogin()"></a>
+            	<a class="new-tbl-cell qq" href="javascript:void(0);" onclick="toQzoneLogin()"></a>
+                <a class="new-tbl-cell zfb" href="#"></a>
+                 <a class="new-tbl-cell" href="javascript:void(0);" onclick="toQzoneLogin()"></a>
+            </div>
+                        <!--<div class="new-input-div direct"><a href="user.php?act=login_code&referer=http%3A%2F%2Fm.99mi.com%2F"><strong>&gt;</strong>手机动态登录</a></div>-->
+        </div>
+
+
+     <img id="image" width="100%" height="100%" />
+        <button onclick="popqr()">扫描二维码</button>
+        <button onclick="setimage()">选择图片</button>
+        <script type="text/javascript">
+            function popqr(){
+                var x = document.getElementById("image")
+                x.src = "http://localdevice/qr"
+            }
+            function setimage(){
+                var x = document.getElementById("image")
+                x.src = "http://localdevice/pic"
+            }
+        </script>
+</body>
+</html>

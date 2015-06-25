@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">果肉网</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="mian_bottom_group_buy">购物车</string>
+    <string name="mian_bottom_classif ">分类</string>
+    <string name="mian_bottom_meself">个人中心</string>
+    <string name="mian_bottom_home">首页</string>
+</resources>
